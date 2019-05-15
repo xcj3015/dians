@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/img_mlss"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_background"
+            />
+
+        <TextView
+            android:id="@+id/name_mlss"
+            android:layout_toRightOf="@id/img_mlss"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="牛逼"
+            />
+        <TextView
+            android:id="@+id/price_mlss"
+            android:layout_toRightOf="@id/name_mlss"
+            android:layout_below="@id/name_mlss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="牛逼"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
