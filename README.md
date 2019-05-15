@@ -8,7 +8,7 @@ RecyclerView  多条目展示
 1 导入依赖 
 2 加入网络权限
 3 创建mvp契约类  实现model  和 presenter 层   model层实现网络请求数据  presenter层 实现传值到activity 
-4 网络请求使用的是okhttp  最简单的请求
+4 网络请求使用的是okhttp  最简单的请求 因为感觉那个vollet有点麻烦 暂时先用这个了
 5 创建一个api包 存放banner 接口 和 home接口 
 6 创建bean类  创建一个bannerbean  homebean 
 7 在activity里实现main的布局管理器 用线性的 实例化presenter层 创建一个解析banner的gson解析的方法 还有一个的home的gson解析的方法  创建一个适配器
